@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravesh Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Pravesh Mishra</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="https://docs.google.com/document/d/18aQTW4Mfu0KJJu7FJt3VN_yq-sVFfmTW/edit?usp=drivesdk&ouid=110011454465372027909&rtpof=true&sd=true">About</a></li>
+                    <li><a href="https://www.linkedin.com/in/pravesh-mishra-42802b222/">Services</a></li>
+                    <li><a href="https://github.com/Praveshkacode">Project</a></li>
+                    <li><a href="https://www.linkedin.com/in/pravesh-mishra-42802b222/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="purple">Pravesh Mishra </span>
+                <div>and I am a </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <div class="btn" onclick="window.location.href='https://docs.google.com/document/d/18aQTW4Mfu0KJJu7FJt3VN_yq-sVFfmTW/edit?usp=drivesdk&ouid=110011454465372027909&rtpof=true&sd=true';">Download Resume</div>
+                    <div class="btn" onclick="window.location.href='https://github.com/Praveshkacode';">Visit Github </div>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="praveshpic.png" alt="">
+            
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What i done so far</span>
+            <h1>Projects</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="praveshbg.png" alt="">
+                    <div class="vertical-title">
+                        Portfolio
+                    </div>
+                    <div class="vertical-desc">
+                        I create various Personal Portfolio And Landing Page using html,css,java script,React and also Wordpress.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="praveshbg.png" alt="">
+                    <div class="vertical-title">
+                        Golden Whatsapp
+                    </div>
+                    <div class="vertical-desc">
+                        It is real time chat application using node js and socket io.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="praveshbg.png" alt="">
+                    <div class="vertical-title">
+                        Amazon Clone
+                    </div>
+                    <div class="vertical-desc">
+                        I create Clone of Amazon website and its frontend exactly like amazon website go and check now on Github.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="praveshbg.png" alt="">
+                    <div class="vertical-title">
+                        News Website
+                    </div>
+                    <div class="vertical-desc">
+                       I create A News website which fetch API and deliver latest news on selected topic.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="praveshbg.png" alt="">
+                    <div class="vertical-title">
+                        Python Projects
+                    </div>
+                    <div class="vertical-desc">
+                        I create Various Python Projects Like Library Management, Jarvis Ai ,Whatsapp tools , Youtube video Downloader and many more.
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="copyright">
+           <h2> Copyright &#169; www.praveshportfolio.com || ALL right reserved By <a href="https://www.linkedin.com/in/pravesh-mishra-42802b222/">Pravesh Mishra </a></h2>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+       <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Software Enginner','Web Designer','Coder'],
+      typeSpeed: 50,
+      });
+    </script>
+    
+</body>
+</html>

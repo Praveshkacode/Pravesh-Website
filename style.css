@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(136, 135, 95, 0.407);
+    color: rgb(229, 228, 228);
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(1, 7, 47);
+    width: 100%;
+
+}
+
+nav ul{
+    display: flex;
+}
+
+nav  ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav  ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav  ul li a:hover{
+    
+    color: rgb(189, 14, 14);
+    font-size: 1.02rem;
+
+}
+
+.left{
+    font-size: 2rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+    align-items: center;
+    color: black;
+
+}
+.firstSection >div{
+    width: 30%;
+}
+
+.leftSection{
+    font-size: 3rem;  
+}
+.leftSection .buttons{
+    padding: 50px 0;
+    display: flex;
+}
+.leftSection .btn{
+    padding: 10px;
+    background-color: rgb(42, 52, 159);
+    color: white;
+    border: 2px solid rgb(8, 1, 1);
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    /* width: 150px; */
+}
+
+.leftSection .btn:hover{
+    color: blanchedalmond;
+}
+
+
+.rightSection img{
+    width:350px;
+    height: 450px;
+    margin-top: -50px;
+    
+}
+
+.purple{
+    color: rgb(28, 6, 225);
+}
+
+#element{
+    color: rgb(28, 6, 225);
+}
+main hr{
+    border: 0;
+    background-color: blue;
+    height: 1.3px;
+    margin: 60px 80px;
+}
+
+
+.secondSection{
+    max-width: 80vh;
+    height: 80vh;
+    margin:  120px;
+    color: black;
+}
+.secondSection h1{
+    font-size: 2rem;
+    color: blue;
+}
+.secondSection .box{
+    background: rgb(14, 10, 10);
+    width:80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical{
+    height: 90px;
+    width: 1px;
+    background-color: rgb(16, 7, 7);
+    margin: 6vw;
+    margin-top: 0;
+
+}
+
+.vertical-title{
+    position: relative;
+    top:75px;
+    width: 150px;
+    font-size: 25px;
+    color: rgb(12, 13, 14);
+
+}
+
+.vertical-desc{
+    position: relative;
+    top:80px;
+    color: rgb(22, 35, 41);
+    width: 150px;
+    font-size: 15px;
+
+}
+
+.image-top{
+    width:23px;
+    position: relative;
+    top:-32px;
+    left:-9px;
+
+}
+
+footer{
+    background-color: azure;
+    height: 70px;
+    margin: auto;
+
+}
+footer .copyright{
+    text-align: center;
+    color: black;
+    justify-content: center;
+    padding: 15px;
+}
+footer a{
+    text-decoration: none;
+}
+@media screen and (max-width: 1200px) {
+  body{
+    min-width: 80%;
+  }
+  nav{
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.5rem;
+    width: 100%;
+    
+  }
+  .firstSection{
+    flex-direction: column-reverse;
+  }
+  .leftSection{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rightSection{
+    width: 700px !important;
+    display: flex;
+    justify-content: center;
+
+  }
+  .rightSection img{
+    width: 45vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .box{
+    flex-direction: column;
+  }
+  .secondSection .vertical{
+    height: unset;
+    width: 1vw;}
+  
+ .secondSection{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+  }
+  
+  .vertical-title,.vertical-desc{
+    left:45px;
+  }
+  .secondSection .box{
+    width: 40vw;
+  }
+
+  .image-top{
+    top: 50px;
+  }
+  footer{
+   display: none;
+  } 
+}
